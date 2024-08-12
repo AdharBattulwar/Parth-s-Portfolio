@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import BackgroundVideo from "../Videos/Background.mp4";
 import LocationLogo from '../Icons/LocationLogo.svg'
-import LinkedINLogo from '../Icons/LinkedINLogo.svg'
+import LinkedINLogo from '../Icons/LinkedInLogo.svg'
 import MailLogo from '../Icons/MailLogo.svg'
 import "../Stylesheet/Homepage.css";
 import Nectar from "./Nectar";
