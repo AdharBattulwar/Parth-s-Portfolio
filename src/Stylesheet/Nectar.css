@@ -1,56 +1,136 @@
-*{
-
+.NectarWrapper {
+  padding: 2rem 3.5rem;
+  overflow: hidden;
 }
-.NectarWrapper{
-    padding: 2rem 3.5rem;
+.NecatarMain {
+  padding: 2rem 3.5rem;
+  background-color: #efe9f4;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  overflow: hidden;
 }
-.NecatarMain{
-    padding: 2rem 3.5rem;
-    background-color: #EFE9F4;
+.NectarTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NectarTopLeft,
+.NectarTopRight {
+  height: 23rem;
+}
+.NectarTopLeft {
+  filter: drop-shadow(20px 21px 10px #00000024);
+}
+.NectarTopLeft img,
+.NectarTopRight img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
+}
+.NectarBottom {
+  filter: drop-shadow(20px 21px 10px #00000024);
+  height: 30.3rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.NectarBottomVideo {
+  border-radius: 2rem;
+  height: 100%;
+}
+.NectarFooter {
+  padding: 1rem 0;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.NectarFooter h1,
+.NectarFooter h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 425px) {
+  .NectarWrapper {
+    padding: 1rem;
+  }
+  .NecatarMain {
+    padding: 2rem 1rem;
+    background-color: #efe9f4;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    row-gap: 3rem;
-}
-.NectarTop{
+    row-gap: 1rem;
+  }
+  .NectarTopLeft,
+  .NectarTopRight {
+    position: relative;
+    height: 15rem;
+    width: 7rem;
+    object-fit: contain;
+    overflow: hidden;
+    object-position: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.NectarTopLeft, .NectarTopRight{
-    height: 27rem;
-}
-.NectarTopLeft{
-    filter: drop-shadow(20px 21px 10px #00000024);
-}
-.NectarTopLeft img, .NectarTopRight img{
+    justify-content: center;
+
+    border-radius: 0.5rem;
+  }
+  .NectarTopRight {
+    overflow: visible;
+  }
+  .NectarTopLeft img,
+  .NectarTopRight img {
+    position: absolute;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.NectarBottom{
+    object-fit: contain;
+    border-radius: 0.5rem;
+  }
+  .NectarTopRight img {
+    position: absolute;
+    height: 70%;
+    /* transform: scaleX(0.6); */
+    object-fit: contain;
+    border-radius: 1rem;
+  }
+  .NectarBottom {
     filter: drop-shadow(20px 21px 10px #00000024);
-    height: 40.3rem;
-    border-radius: 2rem;
+    height: 10.3rem;
+    border-radius: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-}
-.NectarBottomVideo{
-    height: 100%;
-}
-.NectarFooter{
-    padding: 1rem 0;
+  }
+  .NectarBottomVideo {
+    border-radius: 0.5rem;
+    height: 80%;
+  }
+  .NectarFooter {
+    padding: 2rem 0;
     height: auto;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 2rem;
-}
-.NectarFooter h1,.NectarFooter h3{
+    gap: 1rem;
+  }
+  .NectarFooter h1,
+  .NectarFooter h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .NectarFooter h3{
+    font-size: 0.8rem;
+  }
+
 }

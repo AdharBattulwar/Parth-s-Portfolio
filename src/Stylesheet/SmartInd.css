@@ -1,13 +1,11 @@
-*{
 
-}
 .SmartIndWrapper{
     padding: 2rem 0 2rem 3.5rem;
 }
 .SmartIndMain{
     padding: 2rem 0rem;
     width: fit-content;
-    background-color: #a88cc0;
+    background-color: #16BAC5;
     border-radius: 2rem;
     display: flex;
     align-items: center;
@@ -15,7 +13,7 @@
 }
 .SmartIndVideo{
     filter: drop-shadow(20px 21px 10px #00000024);
-    height: 35.3rem;
+    height: 30.3rem;
     width: 90%;
     border-radius: 2rem;
     display: flex;

@@ -1,5 +1,5 @@
 import React from 'react'
-import SmartIndVideo from '../Videos/SmartInd.mp4'
+import SmartIndVideo from '../Videos/SmartInductionDish.mp4'
 import '../Stylesheet/SmartInd.css'
 
 const SmartInduction = () => {
