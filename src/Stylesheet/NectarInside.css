@@ -1,0 +1,69 @@
+.NectarInsideWrapper {
+  padding: 2rem 3.5rem;
+}
+.NectarInsideMain {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.NectarInsideMainHeading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NectarInsideMainImage {
+  filter: drop-shadow(20px 21px 10px #00000024);
+  height: 80%;
+  width: 100%;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.NectarInsideBottomVideo {
+  border-radius: 2rem;
+  height: 100%;
+  width: 100%;
+}
+.NectarInsideMainOverview{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 2rem;
+}
+.NectarInsideMainOverview, .NectarInsideMainTargetAudience, .NectarInsideMainKeyDesign, .NectarInsideMainUserResearch, .NectarInsideMainCompitetorAnalysis, .NectarInsideMainFinalDeliverables, .NectarInsideMainFigmaLink
+{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 2rem;
+
+}
+.NectarInsideMainOverviewContent, .NectarInsideMainTargetAudienceContent, .NectarInsideMainKeyDesignContent, .NectarInsideMainUserResearchContent, .NectarInsideMainCompitetorAnalysisContent, .NectarInsideMainFinalDeliverablesContent, .NectarInsideMainFigmaLinkContent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 0 2rem;
+}
+.NectarInsideMainOverviewHeading h2, .NectarInsideMainTargetAudienceHeading h2, .NectarInsideMainKeyDesignHeading h2, .NectarInsideMainUserResearchHeading h2, .NectarInsideMainCompitetorAnalysisHeading h2, .NectarInsideMainFinalDeliverablesHeading h2, .NectarInsideMainFigmaLinkHeading h2{
+    font-size: 2rem;
+}
+.NectarInsideMainOverviewContent li, .NectarInsideMainTargetAudienceContent li, .NectarInsideMainKeyDesignContent li, .NectarInsideMainUserResearchContent li, .NectarInsideMainCompitetorAnalysisContent li, .NectarInsideMainFinalDeliverablesContent li, .NectarInsideMainFigmaLinkContent li{
+    font-size: 1.4rem;
+    list-style:disc;
+}
+.NectarInsideMainTargetAudienceImg, .NectarInsideMainKeyDesignImg, .NectarInsideMainUserResearchImg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
