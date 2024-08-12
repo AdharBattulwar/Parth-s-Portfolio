@@ -62,7 +62,7 @@
 .ContactContentMail {
   height: 2rem;
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .HomepageMainHeading h1 {
     text-align: center;
     font-size: 1.8rem;

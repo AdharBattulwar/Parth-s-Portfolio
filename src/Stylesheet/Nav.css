@@ -23,7 +23,7 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-@media (max-width:425px){
+@media (max-width:426px){
     .NavContent:nth-child(1), .NavContent:nth-child(2){
         display: none;
     }

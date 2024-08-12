@@ -58,7 +58,7 @@
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .NectarWrapper {
     padding: 1rem;
   }
