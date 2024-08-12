@@ -1,0 +1,46 @@
+*{
+
+}
+.SmartIndWrapper{
+    padding: 2rem 0 2rem 3.5rem;
+}
+.SmartIndMain{
+    padding: 2rem 0rem;
+    width: fit-content;
+    background-color: #a88cc0;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SmartIndVideo{
+    filter: drop-shadow(20px 21px 10px #00000024);
+    height: 35.3rem;
+    width: 90%;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+.SmartIndBottomVideo{
+    height: 104%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+.SmartIndFooter{
+    padding: 1rem 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.SmartIndFooter h1,.SmartIndFooter h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

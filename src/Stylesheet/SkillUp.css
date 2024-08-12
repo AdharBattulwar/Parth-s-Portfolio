@@ -1,0 +1,45 @@
+*{
+
+}
+.SkillUpWrapper{
+    padding: 2rem 3.5rem;
+}
+.SkillUpMain{
+    padding: 2rem 1rem;
+    background-color: #6e13b9;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SkillUpVideo{
+    filter: drop-shadow(20px 21px 10px #00000024);
+    height: 35.3rem;
+    width: 20rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.SkillUpBottomVideo{
+    border-radius: 2rem;
+    height: 101%;
+    width:78%;
+    object-fit: cover;
+    object-position: center;
+}
+.SkillUpFooter{
+    padding: 1rem 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.SkillUpFooter h1,.SkillUpFooter h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

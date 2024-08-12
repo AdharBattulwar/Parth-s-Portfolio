@@ -1,0 +1,64 @@
+.HomepageWrapper {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.BackgroundVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.HomepageMain {
+    margin: 2rem 3.5rem;
+    height: 100%;
+}
+.HomepageMainHeading {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.HomepageMainHeading h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+.HomepageMainHeading h1 span {
+  color: #535050;
+}
+.HomepageLocation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.HomepageLocation img{
+    height: 2rem;
+}
+
+
+.ProjectsWrapper{
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 2rem;
+}
+.ProjectsWrapperSmartIndSkillUp{
+  height: auto;
+  display: flex;
+  
+}
+
+.ContactWrapper{
+  border-top: 2px solid rgba(149, 149, 149, 0.384);
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
+  padding: 3rem 0;
+}
+.ContactContentLinkedIn, .ContactContentMail{
+ height: 2rem;
+}
