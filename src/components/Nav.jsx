@@ -9,7 +9,9 @@ const Nav = () => {
     <>
     <nav>
         <div className='NavbarLeft'>
+            <Link to='/'>
             <img src={Logo} alt='img'></img>
+            </Link>
         </div>
         <div className='NavbarRight'>
             <div className='NavContent'>
